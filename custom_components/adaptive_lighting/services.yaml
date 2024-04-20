@@ -129,6 +129,30 @@ change_switch_settings:
       example: 2000
       selector:
         text: null
+    wake_up_max_brightness:
+      description: Maximum brightness percentage. 💡
+      required: false
+      example: 50
+      selector:
+        text: null
+    wake_up_max_color_temp:
+      description: Coldest color temperature in Kelvin. ❄️
+      required: false
+      example: 2000
+      selector:
+        text: null
+    wake_up_min_brightness:
+      description: Minimum brightness percentage. 💡
+      required: false
+      example: 1
+      selector:
+        text: null
+    wake_up_min_color_temp:
+      description: Warmest color temperature in Kelvin. 🔥
+      required: false
+      example: 1000
+      selector:
+        text: null
     only_once:
       description: Adapt lights only when they are turned on (`true`) or keep adapting them (`false`). 🔄
       example: false
